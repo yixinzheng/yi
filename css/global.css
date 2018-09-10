@@ -1,0 +1,42 @@
+/* 默认值 */
+body, html { font-family:"Microsoft YaHei","微软雅黑",sans-serif;}
+html, body, div, span, p, applet, object, iframe, h1, h2, h3, h4, h5, h6, img, small, strong, ul, li, ol, dd, dl, dt, form, label, table, tbody, tfoot, thead, tr, th, td, input { margin: 0; padding: 0; border: 0; }
+h1, h2, h3, h4, h5, h6 {font-weight: normal;}
+ul,ol,li,dl,dt,dd { list-style-type: none; }
+/* 按钮默认指针 */
+html input[type="button"], input[type="reset"], input[type="submit"] {-webkit-appearance: button;cursor: pointer;}
+html input[disabled] {cursor: default;}
+img{max-width: 100%;}
+/* 表格 */
+table { border-collapse: collapse; border-spacing: 0; }
+*{box-sizing: border-box}
+/* a标签点击 */
+a:hover, a:link, a:visited { text-decoration: none; }
+/*a{transition:0.3s all;}*/
+/* 浮动 */
+.l{float:left;}
+.r{float:right;}
+/*清除浮动*/
+.clear{clear:both;}
+/* 圆角 */
+.radius{-moz-border-radius:3px; -webkit-border-radius:3px;border-radius:3px;}
+/* display */
+.db{display:block;}
+.dn{display:none;}
+/* 指针 */
+.poi{cursor:pointer;}
+.def{cursor:default;}
+/* 无框文本框文本域 */ 
+.bo_none{border:0; outline:none;}
+/* position */
+.rel{position:relative;}
+.abs{position:absolute;}
+/* overflow */
+.ovh{overflow:hidden;}
+/* 块状元素水平居中 */
+.auto{margin:0 auto;}
+.hccontent img{
+	max-width: 100%;
+}
+
+

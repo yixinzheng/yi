@@ -1,0 +1,362 @@
+/*page03*/
+.yx-body {
+    min-width: 1200px;
+    min-height: 935px;
+    background: url("../images/yx-banner-bg .png") center top no-repeat;
+    background-size: 1920px auto;
+    font-size: 14px;
+}
+
+.yx-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.yx-bread {
+    height: 50px;
+    line-height: 50px;
+    font-size: 12px;
+    color: #94841b;
+}
+
+.yx-bread a:hover {
+    color: #fd4249;
+}
+
+.yx-bread span {
+    display: inline-block;
+    padding: 0 3px;
+}
+
+.yx-bread span:last-child {
+    color: #444;
+    padding-left: 0;
+}
+
+.yx-sider {
+    border-radius: 8px;
+    height: 541px;
+    background: #fff;
+}
+
+.yx-siderRight {
+    width: 230px;
+}
+
+.yx-sider-top {
+    height: 205px;
+    text-align: center;
+    color: #fff;
+    background: url("../images/yx-sidertop-bg.png");
+    background-size: 100% 100%;
+}
+
+.yx-sider-wechat {
+    height: 66px;
+    background: url("../images/yx-wechat-bg.png") center center no-repeat;
+}
+
+.yx-sider-en {
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.yx-sider-ch {
+    line-height: 35px;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.yx-sider-sm {
+    line-height: 30px;
+}
+
+.yx-sider-sell {
+    width: 120px;
+    height: 35px;
+    line-height: 33px;
+    margin: 5px auto;
+    border-radius: 100px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.yx-sider-sell:hover {
+    text-decoration: underline;
+}
+
+.yx-sider-mid {
+    padding: 0 15px;
+    height: 46px;
+    line-height: 46px;
+    font-weight: bold;
+    color: #444;
+    background-color: #ffd20f;
+}
+
+.yx-sider-bottom {
+    height: 290px;
+    font-size: 12px;
+    background-color: #ffce12;
+}
+
+.yx-sider-item {
+    display: block;
+    height: 72px;
+    padding: 5px 10px;
+}
+
+.yx-sider-item:hover {
+    background-color: #e5b216;
+}
+
+.yx-sider-itemTop {
+    height: 24px;
+    line-height: 24px;
+}
+
+.yx-sider-time {
+    float: left;
+    height: 24px;
+    line-height: 20px;
+    padding: 0 8px;
+    color: #fff;
+    background: url("../images/yx-time-bg.png");
+    background-size: 100% 100%;
+}
+
+.yx-sider-buy {
+    float: right;
+    color: #444;
+}
+
+.yx-sider-itemWord {
+    height: 38px;
+    line-height: 38px;
+    color: #000;
+}
+
+.yx-siderLeft {
+    width: 970px;
+    padding: 20px;
+}
+
+.yx-sider-tip {
+    display: flex;
+    overflow: hidden;
+}
+
+.yx-sider-key {
+    width: 100px;
+    min-height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    color: #444;
+    text-align: center;
+    background-color: #f6f6f6;
+}
+
+.yx-sider-val {
+    width: 830px;
+    padding: 10px 5px 0 10px;
+    border-bottom: 1px dotted #ddd;
+}
+
+.yx-sider-labelBox {
+    overflow: hidden;
+}
+
+.yx-sider-labelBox2 {
+    float: left;
+    width: 760px;
+}
+
+.yx-sider-labelBox3 {
+    float: left;
+    width: 460px;
+}
+
+.yx-sider-multiple {
+    float: right;
+    height: 30px;
+    line-height: 28px;
+    margin-bottom: 5px;
+    padding: 0 12px;
+    color: #999;
+    font-weight: bold;
+    border: 1px solid #fff;
+}
+
+.yx-sider-custom {
+    float: right;
+    display: flex;
+}
+
+.yx-sider-word {
+    padding: 0 10px;
+    height: 30px;
+    line-height: 30px;
+    color: #999;
+}
+
+.yx-sider-input {
+    width: 80px;
+    outline: none;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.yx-sider-label {
+    float: left;
+    height: 30px;
+    line-height: 28px;
+    margin: 0 5px 5px 5px;
+    padding: 0 12px;
+    color: #999;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.yx-sider-label.active {
+    color: #fd4249;
+    border-color: #fd4249;
+    border-radius: 50px;
+}
+
+.yx-sider-label:hover {
+    color: #fd4249;
+    border-color: #fd4249;
+    border-radius: 50px;
+}
+
+.yx-sider-bt {
+    height: 80px;
+    padding: 24px 0;
+    line-height: 32px;
+}
+
+.yx-sider-bt-key {
+    width: 100px;
+    font-weight: bold;
+    color: #444;
+}
+
+.yx-sider-tag {
+    position: relative;
+    padding: 0 15px;
+    color: #fd4249;
+    border: 1px solid #fd4249;
+    border-radius: 4px;
+}
+
+.yx-sider-del {
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    z-index: 2;
+    width: 14px;
+    height: 10px;
+    background: url("../images/yx-del-bg.png");
+    cursor: pointer;
+}
+
+.yx-sider-btn {
+    margin-right: 12px;
+    height: 32px;
+    line-height: 30px;
+    padding: 0 15px;
+    color: #666;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.yx-sider-btn:hover {
+    color: #000;
+    background-color: #ffdb08;
+    border-color: #ffdb08;
+}
+
+.yx-custom-btn {
+    margin-left: 12px;
+    margin-right: 0;
+}
+/*select box*/
+.base-selectbox {
+    position: relative;
+    width: 140px;
+    margin-right: 10px;
+    float: left;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.base-selected {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    background-color: #FFFFFF;
+    border-left: 1px solid #046bdf;
+    border-right: 1px solid #046bdf;
+    border-bottom: 1px solid #046bdf;
+    border-radius: 5px;
+    box-shadow: 0 0 2px #046bdf;
+    left: -1px;
+    line-height: 32px;
+    position: absolute;
+    top: 0;
+    height: 32px;
+    width: 140px;
+    z-index: 10;
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+.select-block li {
+    color: #333333;
+    padding: 7px 15px;
+    cursor: pointer;
+}
+
+.selected-active {
+    background-color: #046bdf;
+    color: #FFFFFF !important;
+}
+
+.selected-txt {
+    display: block;
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    padding-right: 30px;
+    color: #000;
+}
+
+.arrow-down {
+    border: 6px solid transparent;
+    border-top-color: #666;
+    position: absolute;
+    right: 10px;
+    top: 12px;
+}
+
+.arrow-up {
+    border: 6px solid transparent;
+    border-bottom-color: #999;
+    position: absolute;
+    right: 10px;
+    top: 6px;
+}
+
+/*public*/
+.nw {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.mr0 {
+    margin-right: 0;
+}
